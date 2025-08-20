@@ -1,9 +1,204 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": "1755478990979",
+      "fullName": "zishan",
+      "email": "zishanansari2025@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755481403843",
+      "fullName": "afrin",
+      "email": "afrin123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755537238063",
+      "fullName": "Farheen",
+      "email": "farheen123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755584210319",
+      "fullName": "Aditya Rai",
+      "email": "aditya111@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755591360857",
+      "fullName": "Shalim",
+      "email": "shalim123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755591493612",
+      "fullName": "Radha",
+      "email": "radha123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755592073094",
+      "fullName": "Ankush Verma",
+      "email": "ankush123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755622671361",
+      "fullName": "test",
+      "email": "test@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "1755622727713",
+      "fullName": "AZS",
+      "email": "test12@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "1755683343513",
+      "fullName": "Vishal",
+      "email": "vishal123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755685385470",
+      "fullName": "Zoya",
+      "email": "zoya123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755685736348",
+      "fullName": "Aunty",
+      "email": "aunty123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755693645348",
+      "fullName": "Mate",
+      "email": "mate123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755693729600",
+      "fullName": "huuuu",
+      "email": "hu123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755694072513",
+      "fullName": "hii",
+      "email": "hi123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755694284007",
+      "fullName": "sss",
+      "email": "sss123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755694442471",
+      "fullName": "kkk",
+      "email": "k123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755694776629",
+      "fullName": "n",
+      "email": "n123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755695030397",
+      "fullName": "a",
+      "email": "a123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755696052500",
+      "fullName": "vvv",
+      "email": "vvv123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755696149809",
+      "fullName": "Aisha",
+      "email": "aisha123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755696305861",
+      "fullName": "Hello",
+      "email": "Hello123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755696354123",
+      "fullName": "gggg",
+      "email": "g123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1755699164990",
+      "fullName": "s",
+      "email": "s123@gmail.com",
+      "password": "12345"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "boards": [
+    {
+      "id": "1755696492601",
+      "name": "Project Hub",
+      "background": "/A-Trello-like-task-management-web-app/static/media/P12.4c8ed41c6a8c46f17f04.jpg",
+      "lists": [
+        {
+          "id": "1",
+          "title": "To Do",
+          "cards": [
+            {
+              "id": "1755696596524",
+              "title": "Design Homepage Layout",
+              "dueDate": "2025-08-25",
+              "priority": "High",
+              "tags": [
+                "design",
+                " UI"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "In Progress",
+          "cards": [
+            {
+              "id": "1755696646343",
+              "title": "Build Navigation Menu",
+              "dueDate": "2025-08-24",
+              "priority": "Medium",
+              "tags": [
+                "frontend",
+                " coding"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Done",
+          "cards": [
+            {
+              "id": "1755696711902",
+              "title": "Project Meeting",
+              "dueDate": "2025-08-20",
+              "priority": "Low",
+              "tags": [
+                "meeting"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
