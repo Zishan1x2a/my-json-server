@@ -1,12 +1,11 @@
 {
-  "name": "json-server-vercel",
+  "name": "my-json-server",
   "version": "1.0.0",
-  "description": "Deploy JSON Server to Vercel",
-  "main": "api/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "json-server --watch db.json --port 10000"
   },
   "dependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.3"
   }
 }
